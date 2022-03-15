@@ -1,2 +1,2 @@
-Pliki źródłowe na przedmiot \n
+Pliki źródłowe na przedmiot
 **Programowanie w Internecie**
