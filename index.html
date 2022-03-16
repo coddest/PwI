@@ -42,46 +42,28 @@
         <h1>TIC TAC TOE</h1>
         <!-- Game Instructions -->
         <p id="ins">Game starts by just Tap on 
-            box<br><br>First Player starts as 
+            button<br><br>First Player starts as 
             <b>Player X</b><br>And<br>Second 
             Player as <b>Player 0</b>
         </p>
    
         <br><br>
-        <!-- 3*3 grid of Boxes -->
-        <input type="text" id="b1" onclick=
-            "myfunc_3(); myfunc();" readonly>
-   
-        <input type="text" id="b2" onclick=
-            "myfunc_4(); myfunc();" readonly>
-   
-        <input type="text" id="b3" onclick=
-            "myfunc_5(); myfunc();" readonly>
+        <!-- 3*3 grid of buttons -->
+        <button onclick="button_1();" id="b1"></button>
+        <button onclick="button_2();" id="b2"></button>
+        <button onclick="button_3();" id="b3"></button>
         <br><br>
-   
-        <input type="text" id="b4" onclick=
-            "myfunc_6(); myfunc();" readonly>
-               
-        <input type="text" id="b5" onclick=
-            "myfunc_7(); myfunc();" readonly>
-   
-        <input type="text" id="b6" onclick=
-            "myfunc_8(); myfunc();" readonly>
+        <button onclick="button_4();" id="b4"></button>
+        <button onclick="button_5();" id="b5"></button>
+        <button onclick="button_6();" id="b6"></button>
         <br><br>
-   
-        <input type="text" id="b7" onclick=
-            "myfunc_9(); myfunc();" readonly>
-   
-        <input type="text" id="b8" onclick=
-            "myfunc_10();myfunc();" readonly>
-   
-        <input type="text" id="b9" onclick=
-            "myfunc_11();myfunc();" readonly>
-   
+        <button onclick="button_7();" id="b7"></button>
+        <button onclick="button_8();" id="b8"></button>
+        <button onclick="button_9();" id="b9"></button>
         <!-- Grid end here  -->
         <br><br><br>
         <!-- Button to reset game -->
-        <button id="but" onclick="myfunc_2()">
+        <button id="reset_but" onclick="reset_func()">
             RESET
         </button>
    

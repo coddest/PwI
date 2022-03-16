@@ -48,8 +48,8 @@ h1 {
 /* 3*3 Grid */
 #b1, #b2, #b3, #b4, #b5,
 #b6, #b7, #b8, #b9 {
-  width: 80px;
-  height: 52px;
+  width: 50px;
+  height: 50px;
   margin: auto;
   border: 1px solid gray;
   border-radius: 6px;
@@ -58,16 +58,14 @@ h1 {
 }
 
 /* Reset Button */
-#but {
+#reset_but {
   box-sizing: border-box;
   width: 95px;
   height: 40px;
   border: 1px solid dodgerblue;
   margin: auto;
   border-radius: 4px;
-  font-family: Verdana,
-      Geneva, Tahoma, sans-serif;
-
+  font-family: Verdana, Tahoma, sans-serif;
   background-color: dodgerblue;
   color: white;
   font-size: 20px;
@@ -76,15 +74,14 @@ h1 {
 
 /* Player turn space */
 #print {
-  font-family: Verdana,
-      Geneva, Tahoma, sans-serif;
-
+  font-family: Verdana, Tahoma, sans-serif;
   color: dodgerblue;
   font-size: 20px;
 }
 
 /* Main Container */
 #tiktaktoe {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,9 +89,7 @@ h1 {
 
 /* Game Instruction Text */
 #ins {
-  font-family: Verdana,
-      Geneva, Tahoma, sans-serif;
-       
+  font-family: Verdana, Tahoma, sans-serif;
   color: dodgerblue;
   font-size: 17px;
 }
