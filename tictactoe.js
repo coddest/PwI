@@ -1,5 +1,6 @@
 var bS = [0,0,0,0,0,0,0,0,0];
 var player = new Boolean(false);
+var end = new Boolean(false);
 
 //player X = true
 //player O = false
@@ -7,6 +8,7 @@ var player = new Boolean(false);
 function reset_func() {
     bS = [0,0,0,0,0,0,0,0,0];
     player = true;
+    end = false;
     document.getElementById("ins").textContent = "Tap any button to start game";
     document.getElementById("b1").textContent = "";
     document.getElementById("b2").textContent = "";
@@ -143,14 +145,20 @@ function myfunc() {
         (bS[0] == bS[3] && bS[3] == bS[6]) ||
         (bS[0] == bS[4] && bS[4] == bS[8]))
         ){
-        document.getElementById("ins").textContent = 'player '+ bS[0] + ' won!';
+            if(end == false){
+                document.getElementById("ins").textContent = 'player '+ bS[0] + ' won!';
+                end = true
+            }
     }
 
     if(  bS[8] != 0 &&
         ((bS[6] == bS[7] && bS[7] == bS[8]) ||
         (bS[2] == bS[5] && bS[5] == bS[8]))
         ){
-        document.getElementById("ins").textContent = 'player '+ bS[8] + ' won!';
+            if(end == false){
+                document.getElementById("ins").textContent = 'player '+ bS[8] + ' won!';
+                end = true
+            }
     }
 
     if(  bS[4] != 0 &&
@@ -158,7 +166,10 @@ function myfunc() {
         (bS[3] == bS[4] && bS[4] == bS[5]) ||
         (bS[2] == bS[4] && bS[4] == bS[6]))
         ){
-        document.getElementById("ins").textContent = 'player '+ bS[4] + ' won!';
+            if(end == false){
+                document.getElementById("ins").textContent = 'player '+ bS[4] + ' won!';
+                end = true
+            }
     }
 
     player = !player
