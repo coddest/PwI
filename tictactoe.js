@@ -10,7 +10,7 @@ function reset_func() {
     player = true;
     end = false;
     document.getElementById("ins").textContent = "Tap any button to start game";
-    document.getElementById("b1").textContent = "";
+    document.getElementById("b1").innerHTML = "";
     document.getElementById("b2").textContent = "";
     document.getElementById("b3").textContent = "";
     document.getElementById("b4").textContent = "";
