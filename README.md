@@ -1,4 +1,4 @@
 Pliki źródłowe na przedmiot
-####**Programowanie w Internecie**
+### **Programowanie w Internecie**
 
-[Link do strony na github pages](coddest.github.io/PwI)
+[Link do strony na github pages](https://coddest.github.io/PwI/)
